@@ -74,15 +74,15 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Spacer(),
-            Row(
-              children: [
-                Text('Preivous Quiz Score : '),
-                Spacer(),
-                Text(
-                  "${correctAnswer * 10}/${TotalQue* 10}",
-                ),
-              ],
-            ),
+            // Row(
+            //   children: [
+            //     Text('Preivous Quiz Score : '),
+            //     Spacer(),
+            //     Text(
+            //       "${correctAnswer * 10}/${TotalQue* 10}",
+            //     ),
+            //   ],
+            // ),
             Spacer(flex: 2), // it will take 2/6 spaces
           ],
         ),
